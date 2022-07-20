@@ -9,7 +9,6 @@ ProtectHome=tmpfs
 RuntimeDirectory=puncher
 PrivateTmp=true
 PrivateDevices=true
-NetworkNamespacePath=/run/netns/puncher
 PrivateUsers=true
 ProtectHostname=true
 ProtectClock=true

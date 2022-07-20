@@ -1,3 +1,3 @@
 #!/bin/sh
 
-fpm --input-type dir --output-type deb --depends curl --architecture all -C service/ -n puncher --after-install scripts/after-install.sh
+fpm --input-type dir --output-type deb --depends curl --architecture all -C service/ -n puncher --after-install scripts/after-install.sh --version $(git describe --tags)
