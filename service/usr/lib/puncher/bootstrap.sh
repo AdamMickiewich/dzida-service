@@ -1,4 +1,4 @@
 #!/bin/bash
 set -eu
-curl "https://github.com/arriven/db1000n/blob/main/install.sh" | bash
+curl "https://raw.githubusercontent.com/arriven/db1000n/main/install.sh" | bash
 exec ./db1000n
