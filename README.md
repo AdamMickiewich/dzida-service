@@ -6,7 +6,7 @@ Systemd will care about the process restarts. [Bootstrap script](package/usr/lib
 
 # Getting started
 
-# One-line installer
+## One-line installer
 
 ```sh
 curl -L "https://raw.githubusercontent.com/VolyaTeam/dzida-service/master/install.sh" | sudo bash -x
