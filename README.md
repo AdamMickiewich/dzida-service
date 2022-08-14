@@ -1,7 +1,7 @@
 # About
 
 This package allows to run DDoS penetration testing tool on machine as a systemd service.
-Systemd will care about the process restarts. [Bootstrap script](pacakge/usr/lib/puncher/bootstrap.sh) will care about updates of the tool itself.
+Systemd will care about the process restarts. [Bootstrap script](package/usr/lib/dzida/bootstrap.sh) will care about updates of the tool itself.
 
 
 # Getting started

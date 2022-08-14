@@ -1,12 +1,13 @@
 [Service]
-ExecStart=/usr/lib/puncher/bootstrap.sh
+ExecStart=/usr/lib/dzida/bootstrap.sh
 Restart=on-failure
 RestartSec=30
 DynamicUser=true
 CapabilityBoundingSet=
 ProtectSystem=full
 ProtectHome=tmpfs
-RuntimeDirectory=puncher
+RuntimeDirectory=dzida
+WorkingDirectory=/run/dzida
 PrivateTmp=true
 PrivateDevices=true
 PrivateUsers=true
