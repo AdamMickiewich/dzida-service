@@ -29,6 +29,12 @@ systemctl enable --now dzida@protected.service
 But you need to setup a network in this namepsace, for instance, set up openvpn inside it. Check out [openvpn-netns](https://github.com/pekman/openvpn-netns) for example.
 
 
+## See status & logs
+
+```sh
+journalctl -fu dzida
+```
+
 # Development
 
 Build steps are described at [build.yaml](.github/workflows/build.yaml).
